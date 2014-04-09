@@ -1,0 +1,9 @@
+# Build I was able to build on Linux (gentoo, amd64, java version "1.7.0_13", javac 1.7.0_13) using the following steps:
+
+1) git clone https://code.google.com/p/android-apktool/
+2) cd android-apktool/
+3) ./gradlew
+4) ./gradlew fatJar
+
+# Run
+java -jar brut.apktool/apktool-cli/build/libs/apktool-cli-1.5.3-SNAPSHOT.jar
